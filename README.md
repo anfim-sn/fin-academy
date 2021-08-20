@@ -1,5 +1,4 @@
 # fin-academy
-Тестовое задание для компании Yber-Shop
 
 <h1>@Дизайн</h1>
   <p>Смена языка: https://www.figma.com/file/aqVjJ4MQpbyBEzunBQqtae/FinAcademy</p>
