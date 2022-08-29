@@ -1,0 +1,93 @@
+@import "_var";
+
+.about{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: $font1;
+}
+
+.about__text{
+	width: 800px;
+	margin: 0 auto;
+	opacity: 0%;
+	font-size: 20px;
+	line-height: 30px;
+	transition: all 0.8s ease 0s;
+}
+
+.about__text.title{
+	color: $color;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.about__text span{
+	color: $color;
+}
+
+.about__text._active{
+	opacity: 100%;
+}
+
+.about__line{
+	width: 1px;
+	height: 80px;
+	margin: 40px auto 40px auto;
+	border: none;
+	background-color: #000;
+	clip-path: inset(0 0 80px 0);
+	transition: all 0.8s ease 0s;
+}
+
+.about__line._active{
+	clip-path: inset(0 0 0 0)
+}
+
+.about__div{
+	width: 800px;
+	margin: 0 auto;
+	padding-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.about__div > .about__text{
+	width: auto;
+}
+
+.div__line{
+	width: 50px;
+	height: 1px;
+	margin: 20px auto 20px auto;
+	border: none;
+	background-color: #000;
+	transition: all 0.8s ease 0s;
+}
+
+.div__line.l{
+	clip-path: inset(0 0 0 50px);
+}
+.div__line.r{
+	clip-path: inset(0 50px 0 0);
+}
+
+.div__line.l._active,
+.div__line.r._active{
+	clip-path: inset(0 0 0 0);
+}
+
+
+.about__text.button{
+	width: auto;
+	padding: 13px 25px;
+	background-color: $color;
+	color: white;
+	border-radius: 10px;
+	font-size: 25px;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+.about__text.button:hover{
+	box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.25);
+}

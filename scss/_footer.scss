@@ -1,0 +1,37 @@
+@import "_var";
+
+
+
+.footer {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: $font1;
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer__left,
+.footer__right{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.footer__left > div{
+	display: flex;
+}
+
+.social {
+	width: 30px;
+	margin-right: 10px;
+}
+.phone {
+	margin-left: 30px;
+	color: $color;
+}
+.email {
+	width: 259px;
+	color: $color;
+	text-align: right;
+}
